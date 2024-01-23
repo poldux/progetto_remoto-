@@ -13,14 +13,14 @@ public class triangoloEquilatero extends Application {
 	TextField tLato=new TextField();
 	 TextField tAltezza= new TextField();
 	 Label lRisultato=new Label();
-	 Label lNome=new Label("Anwar Belkheir, Alejandro Ordonez  Romero, Gabriele Menichetti, Daniele Morelli");
+	 Label lNome=new Label("alejandro ordonez sei spettacolare");
 	 Label lData=new Label("2023");
 	public void start (Stage finestra) {
 		Button bArea=new Button("Calcolo area");
 		Button bPerimetro=new Button("Calcolo perimetro");
 		GridPane griglia=new GridPane();
 		
-		griglia.add(tLato, 0,1 );
+		griglia.add(polduz,l,0);
 		griglia.add(tAltezza, 0, 2);
 		griglia.add(bArea, 0,3);
 		griglia.add(lRisultato, 0, 5);
@@ -33,6 +33,8 @@ public class triangoloEquilatero extends Application {
 		finestra.setScene(scena);
 		finestra.show();
 		i grattacieli di new york 
+		new york new york una scommessa d'amore 
+
 		
 		bArea.setOnAction(e->area());
 		bPerimetro.setOnAction(e->ordonez());
